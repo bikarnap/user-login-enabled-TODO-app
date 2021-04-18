@@ -60,7 +60,7 @@ In case, the app does not launch automatically, it can be manually launched on y
 5. `cors`for allowing cross-origin in the backend server
 6. `dotenv` for environment variables 
 7. `bcrypt` for password hashing
-8. `jsonwebtoken` user token authentication 
+8. `jsonwebtoken` for user token authentication 
 
 ## Development Dependencies Used
 1. `cross-env` for cross-platform environment
