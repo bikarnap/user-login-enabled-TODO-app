@@ -15,6 +15,8 @@ After cloning the repository as mentioned above, run the following commands
 ##### `cd todo-app-backend`
 ##### `npm install`
 ##### `npm start`
+The server will start listening on port 3002. 
+Note: _Make sure that the port 3002 is not being used by other services_.
 
 ## Start the frontend 
 Open a new terminal (or a shell), and navigate to the the _todo-application-with-login_ folder that was cloned previously. Then issue the following commands.
@@ -26,6 +28,7 @@ After this, the frontend app should automatically launch on the browswer at
 ##### `localhost:3000`
 In case, the app does not launch automatically, it can be manually launched on your browser by entering
 ##### `localhost:3000`
+Note: _Make sure that the port 3000 is not being used by other services_.
 
 #### Test user credentials
 1. `username/email: bikp@gmail.com, password: bikarnapokharel`
