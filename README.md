@@ -27,6 +27,11 @@ After this, the frontend app should automatically launch on the browswer at
 In case, the app does not launch automatically, it can be manually launched on your browser by entering
 ##### `localhost:3000`
 
+#### Test user credentials
+1. `username/email: bikp@gmail.com, password: bikarnapokharel`
+2. `username/email: tim@gmail.com, password: timjackson`
+3. `username/email: rudolf@gmail.com, password: rudolftampere`
+
 
 ## Screenshots of running application
 
@@ -36,6 +41,10 @@ In case, the app does not launch automatically, it can be manually launched on y
 #### Todo App Page
 ![Todo App Page](./screenshots/todo-app-page.PNG)
 
+## REST APIs
+GET users: `http://localhost:3002/api/users/`
+GET todos: `http://localhost:3002/api/todos/`
+
 ## Tools used during development
 1. The frontend was bootstraped with [Create React App](https://github.com/facebook/create-react-app)
 2. The backend was created as an `npm` project
@@ -43,11 +52,6 @@ In case, the app does not launch automatically, it can be manually launched on y
 4. Version Control using `git`
 5. Database: `MongoDB Atlas cloud`
 6. `REST client` in Visual Studio Code for performing HTTP actions
-
-## REST APIs
-GET users: `http://localhost:3002/api/users/`
-GET todos: `http://localhost:3002/api/todos/`
-
 
 ## Dependencies Used
 1. `express` for backend/api server
