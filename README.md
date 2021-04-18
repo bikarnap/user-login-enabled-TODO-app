@@ -30,10 +30,10 @@ In case, the app does not launch automatically, it can be manually launched on y
 ## Screenshots of running application
 
 #### Login Page
-![Login Page](https://gitlab.com/bikarnap/todo-application-with-login/-/blob/master/screenshots/login-page.PNG)
+![Login Page](./screenshots/login-page.PNG)
 
 #### Todo App Page
-![Todo App Page](https://gitlab.com/bikarnap/todo-application-with-login/-/blob/master/screenshots/todo-app-page.PNG)
+![Todo App Page](./screenshots/todo-app-page.PNG)
 
 ## Tools used during development
 1. The frontend was bootstraped with [Create React App](https://github.com/facebook/create-react-app)
