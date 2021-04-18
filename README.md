@@ -63,7 +63,7 @@ In case, the app does not launch automatically, it can be manually launched on y
 8. `jsonwebtoken` user token authentication 
 
 ## Development Dependencies Used
-1. `jest` for backend testing
-2. `cross-env` for cross-platform environment
-3. `nodemon` for reloading the devlopment backend server
-4. `supertest` for testing the backend server
+1. `cross-env` for cross-platform environment
+2. `nodemon` for reloading the devlopment backend server
+3. `jest` for testing
+4. `supertest` for testing the API
