@@ -42,8 +42,8 @@ In case, the app does not launch automatically, it can be manually launched on y
 ![Todo App Page](./screenshots/todo-app-page.PNG)
 
 ## REST APIs
-GET users: `http://localhost:3002/api/users/`
-GET todos: `http://localhost:3002/api/todos/`
+* GET users: `http://localhost:3002/api/users/`
+* GET todos: `http://localhost:3002/api/todos/`
 
 ## Tools used during development
 1. The frontend was bootstraped with [Create React App](https://github.com/facebook/create-react-app)
