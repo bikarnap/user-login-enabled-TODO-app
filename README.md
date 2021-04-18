@@ -7,17 +7,17 @@ The running app is available at [Todo-App](https://todo-app-bp.herokuapp.com)
 
 ## Getting started
 Open a terminal (or a shell) and navigate to the location of your choice. Then issue the following command to clone the repository:
-#### `git clone https://github.com/bikarnap/preliminary-task-rudolf.git`
+#### `git clone https://gitlab.com/bikarnap/todo-application-with-login.git`
 
 ## Start the backend server
 After cloning the repository as mentioned above, run the following commands
-##### `cd preliminary-task-rudolf`
+##### `cd todo-application-with-login`
 ##### `cd todo-app-backend`
 ##### `npm install`
 ##### `npm start`
 
 ## Start the frontend 
-Open a new terminal (or a shell), and navigate the the preliminary-task-rudolf folder that was cloned previously. Then issue the following commands.
+Open a new terminal (or a shell), and navigate the the todo-application-with-login folder that was cloned previously. Then issue the following commands.
 ##### `cd todo-app`
 ##### `npm install`
 ##### `npm start`
