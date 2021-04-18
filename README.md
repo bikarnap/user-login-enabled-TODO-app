@@ -46,24 +46,24 @@ In case, the app does not launch automatically, it can be manually launched on y
 * GET todos: `http://localhost:3002/api/todos/`
 
 ## Tools used during development
-1. The frontend was bootstraped with [Create React App](https://github.com/facebook/create-react-app)
-2. The backend was created as an `npm` project
-3. IDE used: `Visual Studio Code`
-4. Version Control using `git`
-5. Database: `MongoDB Atlas cloud`
-6. `REST client` in Visual Studio Code for performing HTTP actions
+* The frontend was bootstraped with [Create React App](https://github.com/facebook/create-react-app)
+* The backend was created as an `npm` project
+* IDE used: `Visual Studio Code`
+* Version Control using `git`
+* Database: `MongoDB Atlas cloud`
+* `REST client` in Visual Studio Code for performing HTTP actions
 
 ## Dependencies Used
-1. `express` for backend/api server
-2. `axios` for fetching data from the backend/api
-3. `mongoose` for mongoDB
-5. `cors`for allowing cross-origin in the backend server
-6. `dotenv` for environment variables 
-7. `bcrypt` for password hashing
-8. `jsonwebtoken` for user token authentication 
+* `express` for backend/api server
+* `axios` for fetching data from the backend/api
+* `mongoose` for mongoDB
+* `cors`for allowing cross-origin in the backend server
+* `dotenv` for environment variables 
+* `bcrypt` for password hashing
+* `jsonwebtoken` for user token authentication 
 
 ## Development Dependencies Used
-1. `cross-env` for cross-platform environment
-2. `nodemon` for reloading the devlopment backend server
-3. `jest` for testing
-4. `supertest` for testing the API
+* `cross-env` for cross-platform environment
+* `nodemon` for reloading the devlopment backend server
+* `jest` for testing
+* `supertest` for testing the API
