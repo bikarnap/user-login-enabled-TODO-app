@@ -17,7 +17,7 @@ After cloning the repository as mentioned above, run the following commands
 ##### `npm start`
 The server will start listening on port 3002. 
 ```
-_Note: Make sure that the port 3002 is not being used by other services_.
+Note: Make sure that the port 3002 is not being used by other services.
 ```
 
 ## Start the frontend 
@@ -31,7 +31,7 @@ After this, the frontend app should automatically launch on the browswer at
 In case, the app does not launch automatically, it can be manually launched on your browser by entering
 ##### `localhost:3000`
 ```
-_Note: Make sure that the port 3000 is not being used by other services_.
+Note: Make sure that the port 3000 is not being used by other services.
 ```
 
 #### Test user credentials
