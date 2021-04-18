@@ -27,6 +27,7 @@ After this, the frontend app should automatically launch on the browswer at
 In case, the app does not launch automatically, it can be manually launched on your browser by entering
 ##### `localhost:3000`
 
+
 ## Screenshots of running application
 
 #### Login Page
@@ -42,6 +43,11 @@ In case, the app does not launch automatically, it can be manually launched on y
 4. Version Control using `git`
 5. Database: `MongoDB Atlas cloud`
 6. `REST client` in Visual Studio Code for performing HTTP actions
+
+## REST APIs
+GET users: `http://localhost:3002/api/users/`
+GET todos: `http://localhost:3002/api/todos/`
+
 
 ## Dependencies Used
 1. `express` for backend/api server
