@@ -6,7 +6,7 @@ A user can access a TODO Applcation by providing login credentials - _email (as 
 The running app is available at [Todo-App](http://todo-app-bikp.herokuapp.com/)
 
 ## Getting started
-Open a terminal (or a shell) and navigate to the location of your choice. Then issue the following command to clone the repository:
+Open a terminal (or a shell) and navigate to a location of your choice. Then issue the following command to clone the repository:
 #### `git clone https://gitlab.com/bikarnap/todo-application-with-login.git`
 
 ## Start the backend server
@@ -17,7 +17,7 @@ After cloning the repository as mentioned above, run the following commands
 ##### `npm start`
 
 ## Start the frontend 
-Open a new terminal (or a shell), and navigate the the todo-application-with-login folder that was cloned previously. Then issue the following commands.
+Open a new terminal (or a shell), and navigate to the the _todo-application-with-login_ folder that was cloned previously. Then issue the following commands.
 ##### `cd todo-app`
 ##### `npm install`
 ##### `npm start`
