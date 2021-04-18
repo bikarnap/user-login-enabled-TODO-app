@@ -1,0 +1,20 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "todo": "Create a Next-gen project in Jira"
+    },
+    {
+      "id": "2",
+      "todo": "Add people to the Next-gen project"
+    },
+    {
+      "id": "3",
+      "todo": "Create a roadmap for the project"
+    },
+    {
+      "id": 4,
+      "todo": "Learn MongoDB"
+    }
+  ]
+}

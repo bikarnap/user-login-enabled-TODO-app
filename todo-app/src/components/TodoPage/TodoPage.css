@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  padding: 0; 
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+  
+.u-company-name {
+  width: 100%;
+  text-align: center;  
+  color: #F76362;
+  line-height: 10vh;
+  font-size: 34px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+ 
+.u-column {
+  float: left;
+  height: 90vh;
+  text-align: center;
+  margin: auto;
+  padding: 16px;
+  font-size: 24px;  
+}
+
+.u-left {
+  width: 20%;
+  background-color: #939BAE;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;  
+}
+
+.u-right {
+  width: 80%;
+  text-align: center;
+  background-color: #E3E9ED;  
+  overflow: scroll;
+}
+
+/* Clear floats after the columns */
+.u-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.navbar {
+  height: 10vh;
+  width: 100vw;
+  background-color: #444D63;
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.navbar-left {
+  display: inline-block;
+  width: 20%;
+}
+
+.navbar-right {   
+  display: inline-block;
+  width: 80%;    
+}
+
+.user-dp {
+  width: 150px; 
+  height: 150px; 
+  border-radius: 50%;
+  background-color: bisque;
+  display: block;
+  margin: auto;
+}
+
+.u-app-name {
+  text-align: center;
+  line-height: 10vh;
+  color: #F76362;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.u-logout {
+   
+    
+    
+}
+
+.u-logout-button {
+  margin: 20px;
+  height: 56px;
+  width: 120px;
+  background-color: #444D63; /**/
+  color: #FFFFFF;
+  border-radius: 6px;
+  border: none; 
+  outline: none;
+  padding: 16px;
+}
+
+.u-logout-button:hover {
+  cursor: pointer;
+  /* opacity: 96%; */
+}
+
+.todo-style {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px dashed;       
+  width: 55%;
+  margin: 10px auto auto auto;
+  text-align: left;  
+  font-size: 18px;
+};
+
+.todo {
+  color: red;
+}
+
+
+
+.todo-delete:hover {
+  background-color: #F76362;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1080px) {
+  .todo-style {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 979px) {
+  .navbar {
+    height: 20vh;
+  }
+  .navbar-left {
+    width: 100vw;
+  }
+
+  .navbar-right {
+    width: 100vw;
+  }
+
+  .u-left{
+    width: 35%;
+  }
+
+  .u-right{
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 517px) {
+  .u-left{
+    width: 100%;
+    height: 55vh;
+    
+  }
+
+  .u-right{
+    width: 100%;
+  }
+}
+
+  
+
+  

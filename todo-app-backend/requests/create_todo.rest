@@ -1,0 +1,7 @@
+POST http://localhost:3002/api/todos
+Content-Type: application/json
+
+{
+    "todo": "Learn about token authorization", 
+    "userId": "60774fe9bf0d3c2f8ca30fe7"
+}

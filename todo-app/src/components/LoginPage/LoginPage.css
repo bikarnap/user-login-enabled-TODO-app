@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  padding: 0; 
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.svg-image {
+  width: 100%;
+}
+
+.form {
+  height: 100vh;
+  position: relative;
+  top: 50%;    
+}
+
+.company-name {
+  width: 403px;
+  height: 60px;
+  margin-top: 99px;
+}
+
+.sign-in {
+  margin-top: 140px;
+  padding-bottom: 20px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.login-input {
+  width: 450px;
+  height: 66px;
+  border: 1px solid #939BAE;
+  border-radius: 8px;
+  outline: none;
+  line-height: 22px;
+  padding-left: 16px;
+  margin-top: 20px;
+  font-weight: 400;
+  color: #444D63;
+}
+
+.login-error {
+  width: 450px; 
+  height: 66px;
+  border: 1px solid #F76362;
+  outline: none;
+  border-radius: 8px;
+  line-height: 22px;
+  padding-left: 18px;
+  margin-top: 20px;
+  font-weight: 500;
+  color: #444D63;
+}
+
+.login-error-message {
+  height: 21px; 
+  color: #F76362;
+  font-size: 20px; 
+  font-weight: 500;
+}
+
+::placeholder {
+  color: #939BAE;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #939BAE;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #939BAE;
+}
+
+.login-button {
+  width: 448px; 
+  height: 56px;
+  border-radius: 8px;
+  line-height: 100%;
+  background-color: #444D63;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 105px;
+  padding: 16px;
+  box-shadow: 3px 6px 9px rgba(255, 255, 255, 0.16);
+}
+
+.login-button:hover {
+  /* opacity: 96%; */
+}
+
+.overlay {
+  width: 55%; 
+  line-height:100%;
+  opacity: 0.96;
+  
+}
+
+.column {
+  float: left;
+  height: 100%;  
+}
+
+.left {
+  width: 58%;
+}
+
+.right {
+  width: 42%;
+  display: block;
+  text-align: center;  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ 

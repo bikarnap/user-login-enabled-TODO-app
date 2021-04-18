@@ -1,0 +1,13 @@
+POST http://localhost:3002/api/users
+Content-Type: application/json
+
+{
+    "todos": [],
+    "username": "bikp@gmail.com", 
+    "name": "Bikarna Pokharel", 
+    "password": "bikarnapokharel"
+}
+
+# bikp@gmail.com:bikarnapokharel Bikarna Pokharel
+# rudolf@gmail.com:rudolfTampere Rudolf Tampere
+# tim@gmail.com:timjackson Tim Jakson
