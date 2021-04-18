@@ -64,7 +64,7 @@ const App = () => {
     else 
       setProfileImage(user3);
   };
-  const handleLogin = async event => {
+  const handleLogin = async (event) => {
     event.preventDefault(); 
   
     try{
@@ -109,7 +109,7 @@ const App = () => {
     setTodo(todoItem);
   }
 
-  const addTodoItem = async event => {
+  const addTodoItem = async (event) => {
     event.preventDefault(); 
     try {
       if (todo) {
