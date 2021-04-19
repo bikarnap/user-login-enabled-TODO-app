@@ -84,6 +84,7 @@
   font-weight: 500;
   margin-top: 105px;
   padding: 16px;
+  position: relative;
   box-shadow: 3px 6px 9px rgba(255, 255, 255, 0.16);
 }
 
@@ -91,11 +92,24 @@
   opacity: 96%;
 }
 
-.overlay {
-  width: 55%; 
-  line-height:100%;
-  opacity: 0.96;
-  
+.login-button::before {
+  content: ""; 
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 20% 50%; 
+  border-radius: 50%; 
+  left: 50%; 
+  top: 50%; 
+  transform: translate(-50%, -50%) scale(0.6);
+  opacity: 0; 
+  transition: transform 0.8s, opacity 1s; 
+}
+
+.login-button:active::before {
+  transition: 0s;
+  background-color: #444D63;
+  opacity: 1; 
+  transform: translate(-50%, -50%) scale(0);  
 }
 
 .column {
