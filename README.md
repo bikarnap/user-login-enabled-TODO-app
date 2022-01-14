@@ -42,11 +42,17 @@ Note: Make sure that the port 3000 is not being used by other services.
 
 ## Screenshots of running application
 
-#### Login Page
+#### Login Page 1
 ![Login Page](./screenshots/login-page.PNG)
 
-#### Todo App Page
+### Login Page 2
+![Login Page](./screenshots/login-page-1.PNG)
+
+#### Todo App Page 1
 ![Todo App Page](./screenshots/todo-app-page.PNG)
+
+#### Todo App Page 2
+![Todo App Page](./screenshots/todo-app-page-1.PNG)
 
 ## REST APIs
 * GET users: `http://localhost:3002/api/users/`
