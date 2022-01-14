@@ -1,5 +1,5 @@
 import React from 'react';
-import companyImage from './companyName.png';
+import companyImage from './companyName1.png';
 
 const TheRudolf = () => {
     return(

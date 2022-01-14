@@ -23,7 +23,7 @@ const TodoPage = (props) => {
     return(
         <div>
             <div className="row navbar">
-                <div className="navbar-left u-company-name">The Rudolf</div>
+                <div className="navbar-left u-company-name">BikarnaSoft</div>
                 <div className="navbar-right u-app-name">Todo Application</div>
             </div>
 
