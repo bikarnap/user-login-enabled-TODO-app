@@ -39,6 +39,8 @@ Note: Make sure that the port 3000 is not being used by other services.
 2. `username/email: tim@gmail.com, password: timjackson`
 3. `username/email: rudolf@gmail.com, password: rudolftampere`
 
+### Note: credentials and environment variables should not generally be shared publicly. It is done here only for the purpose of demonstration
+
 
 ## Screenshots of running application
 
