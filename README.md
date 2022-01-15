@@ -4,7 +4,7 @@
 A user can access a TODO Applcation by providing login credentials - _email (as username) and password_. It is assumed that the user has been registered by the administrator of the application. After a successful login, the user sees an interface to add todo items. The first time the user logins into the application, the todo list is empty, however, if the user had previously entered some todo items, they will appear as a list with the possibility to delete a todo as required. Additionally, the UI shows the user's profile picture, name of the user, current local date and time, and the total number of todo items that belong to the user. There is a Logout button to logout of the application. 
 
 ### The running app is available at [Todo-App](http://todo-app-bikp.herokuapp.com/)
-__Use the credentials provided below, [Click-here](#### Test user credentials), to login to the app__
+__Use the credentials provided below, [Click-here](####-Test-user-credentials), to login to the app__
 
 ## Getting started
 Open a terminal (or a shell) and navigate to a location of your choice. Then issue the following command to clone the repository:
