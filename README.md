@@ -16,8 +16,7 @@ After cloning the repository as mentioned above, run the following commands
 ##### `cd todo-app-backend`
 ##### `npm install`
 ##### `npm start`
-The server will start listening on port 3002. [Click-here](#rest-apis) for API endpoints
-Since the folder - build, is also included here in the repository, the application's frontend can also be accessed at http://localhost:3002
+The server will start listening on port 3002. [Click-here](#rest-apis) for API endpoints. Since the folder - build, is also included here in the repository, the application's frontend can also be accessed at http://localhost:3002
 ```
 Note: Make sure that the port 3002 is not being used by other services.
 ```
